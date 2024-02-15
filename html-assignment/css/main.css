@@ -19,3 +19,19 @@ header, footer {
 .hobbies-list li:nth-child(odd) {
     background-color: darkolivegreen;
 }
+
+.navigation {
+    list-style-type: none;
+    
+}
+
+.navigation {
+    text-decoration: none;
+    background-color: darkolivegreen;
+    border: 1px solid;
+    padding: 5px 10px;
+}
+
+.navigation:hover {
+    background-color: black;
+}
