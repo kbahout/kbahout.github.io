@@ -1,0 +1,37 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+header, footer {
+    background-color: darkslateblue;
+}
+.site-title {
+    color: azure;
+}
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+    
+.hobbies-list {
+    list-style-type: square;
+}
+
+.hobbies-list li:nth-child(odd) {
+    background-color: darkolivegreen;
+}
+
+.navigation {
+    list-style-type: none;
+    
+}
+
+.navigation {
+    text-decoration: none;
+    background-color: darkolivegreen;
+    border: 1px solid;
+    padding: 5px 10px;
+}
+
+.navigation:hover {
+    background-color: black;
+}
