@@ -4,7 +4,7 @@
 
 .wrapper{
     background-color: rgb(219, 237, 237);
-    width: 1000px;
+    width: 1020px;
     margin: auto;
 }
 
@@ -23,13 +23,15 @@ h1{
     font-weight: lighter;
     color: white;
 }
+
+
 .container{
     position: relative;
     max-width: 500px;
 }
 
 img {
-    width: 200%;
+    width: 204%;
 }
 
 nav li{
@@ -37,8 +39,9 @@ nav li{
     border-right: 1px solid #333;
     width: 300px;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
+
 /* need to remove the last line*/
 nav li:last-child{
     border-right: none;
@@ -47,7 +50,9 @@ nav li:last-child{
 h2{
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
+
 
 li{
     margin: 10px;
@@ -68,7 +73,7 @@ li{
     margin: 10px;*/
     border: 1px solid #000000;
     padding: 20px;
-    width: 400px;
+    width: 935px;
     height: 200px;
     margin: 10px;
     margin-bottom: 20px;
