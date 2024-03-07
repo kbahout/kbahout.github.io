@@ -90,6 +90,11 @@ li{
     margin-top: 5px; 
 }
 
+.box form input[type="radio"] {
+    display: inline;
+    width: auto;
+}
+
 h3{
     font-weight: lighter;
 }
