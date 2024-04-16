@@ -54,6 +54,15 @@ table {
     box-sizing: border-box;
 }
 
+html{
+    font-size: 18px;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
 .wrapper {
     max-width: 1200px;
     margin: 0 auto; 
@@ -84,8 +93,6 @@ table {
 
 
 .yellow-box img {
-    top: 0;
-    left: 0;
     width: 130px; 
     display: flex;
     flex-direction: row;
@@ -112,14 +119,4 @@ table {
     padding-top: 7px;
     padding-left: 5px;
     
-}
-
-
-html{
-    font-size: 18px;
-}
-
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: lighter;
 }
