@@ -154,8 +154,14 @@ body{
         font-weight: lighter;
         
     }
-
-
+    .div overlay-text, header{
+        background-color: #c78c06; 
+        width: 200px;
+        height: 70px;
+        text-align: center;
+        align-items: center;
+        color: rgb(79, 79, 79); 
+    }
     
     
 }
