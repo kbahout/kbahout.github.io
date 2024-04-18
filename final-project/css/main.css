@@ -72,7 +72,7 @@ body{
 @media (max-width: 760px) {
     
     .wrapper {
-        padding: 0 20px; 
+        padding: 20px; 
     }
 
     .container{
@@ -430,10 +430,34 @@ body{
         padding-left: 10px;
         font-size: 17px;
 
-    }
-    
-    
-    
-    
+    }  
 }
 
+
+@media (min-width: 761px) and (max-width:1200px){
+    .wrapper {
+        padding: 20px; 
+    }
+    /* .container{
+       display: flex;
+       flex-direction: row;
+    }
+    .container nav li{
+        display: inline;
+    }
+    .container yellow-box nav li{
+        display: inline;
+    } */
+    .container {
+        background-color:#222;
+        display: inline-block;
+        text-align: center;
+        /* align-items: center; Vertically center items */
+        padding: 10px; /* Add padding for spacing */
+    }
+    .yellow-box nav li{
+        visibility: hidden;
+    }
+
+}
+    
