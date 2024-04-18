@@ -245,14 +245,14 @@ body{
         content: '';
         position: absolute;
         top: 50%;
-        right: 10px; 
+        right: 15px; 
         transform: translateY(-50%);
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
         border-left: 10px solid white;
     }
     .vision img{
-        width: 500px;
+        width: 600px;
         height: 320px; 
         padding-top: 20px;
         padding-bottom: 20px;
@@ -283,6 +283,33 @@ body{
         line-height: 25px;
         padding-top: 1px;
     }
+    .overlay-content2 header{
+        position: relative;
+        background-color:#22222297;
+        width: 210px;
+        height: 90px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin: 5px;
+        color: white;
+        font-size: 20px;
+        letter-spacing: 0.5; 
+        border: 2px solid orange;
+    }
+    .overlay-content2 header::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 15px; 
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid white;
+    }
+    
     
     
     
