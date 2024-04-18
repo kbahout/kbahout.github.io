@@ -363,8 +363,6 @@ body{
         font-weight: 900;
         padding-top: 30px;
         padding-bottom: 20px;
-        padding-left: 10px;
-        text-align: left;
         word-spacing: 3px;
     }
     .contact div textarea {
@@ -392,6 +390,26 @@ body{
         font-size: 23px;
         margin-top: 25px;
         margin-bottom: 25px;
+    }
+    .operation header{
+        font-size: 35px;
+        font-weight: 900;
+        padding-bottom: 20px;
+        word-spacing: 3px;
+    }
+    .operation table thead tr th{
+        background-color: #ffe6ac;
+
+    }
+    .operation table {
+        border-collapse: separate; 
+        border-spacing: 0; 
+    }
+    
+    .operation table, .operation table td, .operation table th {
+        border: 0.5px solid black; /* Set a solid black border for the table and its cells */
+        height: 55px;
+        width: 650px;
     }
     
     
