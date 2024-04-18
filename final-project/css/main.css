@@ -411,7 +411,18 @@ body{
         height: 55px;
         width: 650px;
     }
-    
+    .copyright{
+        background-color: #222;
+        height: 130px;
+        color: #c78c06;
+        font-weight: lighter;
+        word-spacing: 3px;
+        line-height: 55px;
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 17px;
+        
+    }
     
     
     
