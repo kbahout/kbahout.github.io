@@ -66,14 +66,13 @@ body{
 .wrapper {
     max-width: 1200px;
     margin: 0 auto; 
-    padding: 0 20px; 
+    /* padding: 0 20px;  */
 }
 
 @media (max-width: 760px) {
     
     .wrapper {
-        display: flex; 
-        flex-direction: column;
+        padding: 0 20px; 
     }
 
     .container{
@@ -253,8 +252,36 @@ body{
         border-left: 10px solid white;
     }
     .vision img{
-        width: 100%;
-        height: auto; 
+        width: 500px;
+        height: 320px; 
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .vision {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .overlay-content2 {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: white; 
+    }
+    .overlay-content2 h3{
+        font-size: 35px;
+        font-weight: 900;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        text-align: left;
+        word-spacing: 3px;
+    }
+    .overlay-content2 p{
+        font-size: 15px;
+        font-weight: lighter;
+        word-spacing: 1px;
+        line-height: 25px;
+        padding-top: 1px;
     }
     
     
