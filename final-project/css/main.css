@@ -126,7 +126,6 @@ body{
         height: auto;
 
     }
-
     .overlay-text { 
         position: relative;
         top: 50%;
@@ -137,7 +136,6 @@ body{
         padding: 20px;
         /* text-align: center; */
     }
-
     .welcome div h1{
         font-size: 55px;
         color: white;
@@ -158,11 +156,14 @@ body{
     }
     .welcome div header{
         background-color: #c78c06; 
-        width: 200px;
-        height: 70px;
-        text-align: center;
-        color: rgb(79, 79, 79); 
+        width: 210px;
+        height: 80px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        color: rgb(52, 52, 52); 
         margin-top: 10px;
+        letter-spacing: 0.5px;
     }
     .about {
         background-color: #ffe6ac;
@@ -228,7 +229,33 @@ body{
         padding-block: 10px;
     
     } 
-    
+    .services div header{
+        position: relative;
+        background-color:#222; 
+        width: 210px;
+        height: 90px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin: 15px;
+        color: white;
+        font-size: 20px;
+        letter-spacing: 0.5;
+    }
+    .services div header::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 10px; 
+        transform: translateY(-50%);
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid white;
+    }
+    .vision img{
+        width: 100%;
+        height: auto; 
+    }
     
     
     
