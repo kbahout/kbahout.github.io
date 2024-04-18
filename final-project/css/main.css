@@ -200,6 +200,10 @@ body{
         flex-direction: column;
         
     }
+    .services div{
+        background-color: #ffe6ac;
+        margin-bottom: 10px;
+    }
     .services div img{
         width: 100%;
         height: auto;
@@ -214,10 +218,17 @@ body{
         word-spacing: 3px;
         
     }
-    .services div img, .services div h3, .services div p, .services div header{
-        background-color: #ffe6ac;
-        
-    }
+    .services div p{
+        font-size: 15px;
+        font-weight: lighter;
+        word-spacing: 1px;
+        line-height: 25px;
+        padding-top: 7px;
+        padding-inline: 10px;
+        padding-block: 10px;
+    
+    } 
+    
     
     
     
