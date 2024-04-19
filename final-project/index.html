@@ -9,18 +9,11 @@
 <body>
 <div class="wrapper">
     <div class="container">
-        <div class="yellow-box">
-            <img src="images/logo.png" alt="logo">
-            <nav>
-                <ul>
-                    <li>Home</li>
-                </ul>
-            </nav>
-        </div>
         <div class="blist">
         <nav>
             <ul>
-                <li>Home</li>
+                <li> <img src="images/logo.png" alt="logo"></li>
+                <li class="active">Home</li>
                 <li>About Us</li>
                 <li>Services</li>
                 <li>Team</li>
@@ -31,7 +24,7 @@
         </div>
      </div>
     <div class="welcome">  
-        <img src="images/main-banner.jpg" alt="desks">
+        <!-- <img src="images/main-banner.jpg" alt="desks"> -->
         <div class="overlay-text">
             <h1>Welcome to Three Star Media</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
@@ -87,26 +80,33 @@
     </div>   
     <div class="team">
         <h2>Our team</h2>
-      <div class="employe">
+        <!-- <div class="employe"> -->
         <img src="images/john.jpg" alt="men">
-        <h3>John Doe</h3>
-        <header>CEO and Co-owner</header>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nam rerum, ad libero consequuntur itaque quae impedit tempora accusantium tenetur repellendus modi iste autem cupiditate amet perspiciatis asperiores excepturi officia?</p>
+        <div class="john-info">
+            <h3>John Doe</h3>
+            <header>CEO and Co-owner</header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nam rerum, ad libero consequuntur itaque quae impedit tempora accusantium tenetur repellendus modi iste autem cupiditate amet perspiciatis asperiores excepturi officia?</p>
+        </div>
+
         <img src="images/bob.jpg" alt="men">
-        <h3>Bob Rite</h3>
-        <header>CFO and Co-owner</header>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ex quo velit, unde dignissimos repellendus quasi error atque repellat labore distinctio molestias suscipit corporis repudiandae cupiditate necessitatibus eaque itaque nostrum?</p>
+        <div class="bob-info">
+            <h3>Bob Rite</h3>
+            <header>CFO and Co-owner</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ex quo velit, unde dignissimos repellendus quasi error atque repellat labore distinctio molestias suscipit corporis repudiandae cupiditate necessitatibus eaque itaque nostrum?</p>
+        </div>
       </div>
 
     </div>
     <footer>
-     <div class="contact">
+    <div class="contact">
          <h2>Contact Us</h2>
             <div class="message"> <!-- use grid in css -->
                 <header>Send us a message</header>
                 <form action="index.html" method="post">
                 <label for="fullname">Full Name</label>
                 <input id="fullname" type="text" name="fname"></input>
+
+           
                
                 <label for="email">Email</label>
                 <input id="email" type="text" name="email"></input>
@@ -115,11 +115,9 @@
                 <textarea id="message" name="message"></textarea>
                 <p>Send</p>    
             </div>
-     </div>
-
-     <div class="operation">
+         <div class="operation">
          <header>Hours of operation</header>
-        <table>
+            <table>
             <thead>
                 <tr>
                     <th>Days</th>
@@ -136,13 +134,13 @@
                     <td>Closed</td>
                 </tr>
             </tbody>
-        </table>
-     </div>
+            </table>
+         </div>
             <div class="location">
                 <header>Location</header>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944456590025!2d-75.75750062358713!3d45.349933471072326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1712318788902!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        
+    </div>    
      <div class="copyright">
         <p>&copy; Copyright Three Star Media, 2020</p>
         <p>All images are taken from Unsplash</p>
